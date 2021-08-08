@@ -1,19 +1,22 @@
-const input = document.querySelector("input");
+const inputs = document.querySelectorAll("input");
+const button = document.querySelector('button');
 const canvas = document.getElementById("qr");
 
-const createQR = v => {
+const createQR = value => {
   
   return new QRious({
     element: canvas,
-    value: v,
-    size: 400,
+    value,
+    size: 200,
     backgroundAlpha: 0,
-    foreground: "white" });
-
+    background: 'black'
+  });
 };
 
-const qr = createQR(input.value);
-
-input.addEventListener("input", () => {
-  const qr = createQR(input.value);
-});
+button.addEventListener('click', () => {
+  let result = [];
+  inputs.forEach(inputField => {
+    result.push(inputField.value)
+  });
+  const qrCode = createQR(result.join(','));
+});{}

@@ -6,8 +6,8 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Open Sans", sans-serif;
-  background-color: #000;
-  color: #fff;
+  background-color: #c2c1a5;
+  color: #36453b;
 }
 h1{
   font-size: 50px;
@@ -26,21 +26,21 @@ input {
   font-family: "Open Sans", sans-serif;
   text-align: center;
   margin-bottom: 1rem;
-  border: 1px solid #fff;
-  border-bottom: 2px solid #fff;
+  border: 1px solid #36453b;
+  border-bottom: 2px solid #36453b;
   padding: 0.5rem;
   background-color: transparent;
-  color: #fff;
+  color: #36453b;
   outline: none;
 }
 input::-moz-placeholder {
-  color: #fff;
+  color: #36453b;
 }
 input:-ms-input-placeholder {
-  color: #fff;
+  color: #36453b;
 }
 input::placeholder {
-  color: rgb(128, 124, 124);
+  color: #596869;
 }
 canvas {
   width: 200px;
