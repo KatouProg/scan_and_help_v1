@@ -6,8 +6,8 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Open Sans", sans-serif;
-  background-color: #c2c1a5;
-  color: #36453b;
+  background-color: #6b5e62;
+  color: #c9f0ff;
 }
 h1{
   font-size: 50px;
@@ -26,21 +26,21 @@ input {
   font-family: "Open Sans", sans-serif;
   text-align: center;
   margin-bottom: 1rem;
-  border: 1px solid #36453b;
-  border-bottom: 2px solid #36453b;
+  border: 1px solid #eafffd;
+  border-bottom: 2px solid #efeff0;
   padding: 0.5rem;
   background-color: transparent;
-  color: #36453b;
+  color: #c9f0ff;
   outline: none;
 }
 input::-moz-placeholder {
-  color: #36453b;
+  color: #c9f0ff;
 }
 input:-ms-input-placeholder {
-  color: #36453b;
+  color: #c9f0ff;
 }
 input::placeholder {
-  color: #596869;
+  color: #d5cad6;
 }
 canvas {
   width: 200px;
